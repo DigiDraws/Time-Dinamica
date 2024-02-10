@@ -7,7 +7,7 @@ var days = fecha.getDate();
  var mins = fecha.getMinutes();
  var seg = fecha.getSeconds();
  //calcular el tiempo restante para concluir la dinamica de digidraws
- var daysR = 10-days;
+ var daysR = 11-days;
  var hoursR = 24-hours;
  //var minsR =  (60*24)-((60*hours)+mins)
  var minsR = 60-mins;
