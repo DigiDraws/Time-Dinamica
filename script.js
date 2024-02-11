@@ -8,7 +8,6 @@ function calc() {
     var hours = fechaAr.getHours();
     var mins = fechaAr.getMinutes();
     var seg = fechaAr.getSeconds();
-    console.log(hours);
     
     var daysR = 11 - days;
     var hoursR = 24 - hours;
