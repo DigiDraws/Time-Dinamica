@@ -1,15 +1,15 @@
+
 let restant = document.querySelector('#Cronometro');
 
 function calc() {
-    let fechaArObj = new Date(new Date().toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' }));
+    let fechaAr = new Date(new Date().toLocaleString('es-AR', { timeZone: 'America/Argentina/Buenos_Aires' }));
 
-    var days = fechaArObj.getDate();
-    var hours = fechaArObj.getHours();
-    var mins = fechaArObj.getMinutes();
-    var seg = fechaArObj.getSeconds();
+    var days = fechaAr.getDate();
+    var hours = fechaAr.getHours();
+    var mins = fechaAr.getMinutes();
+    var seg = fechaAr.getSeconds();
     console.log(hours);
-
-    // Calcular el tiempo restante para concluir la dinámica de digidraws
+    
     var daysR = 11 - days;
     var hoursR = 24 - hours;
     var minsR = 60 - mins;
